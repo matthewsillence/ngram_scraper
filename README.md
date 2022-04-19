@@ -1,7 +1,7 @@
-#ngram_scraper
+# ngram_scraper
 This ngram scraper uses the web inteface for Google Ngrams to extract basic chart data to create your own plots. The Google Ngrams dataset is very large, and although there are options for interrogating and iterating over those files using Python, this script assumes that the user will have performed a search on the web first. Details of this process are set out on the following website: https://www.geeksforgeeks.org/scrape-google-ngram-viewer-using-python/ 
 
-##Obtaining Google Ngram data
+## Obtaining Google Ngram data
 A simple way to obtain the basic data for an ngram plot is to alter the URL. For example, https://books.google.com/ngrams/graph?content=Tom+Peters&year_start=1800&year_end=2019&corpus=26&smoothing=3&direct_url=t1%3B%2CTom%20Peters%3B%2Cc0 would become https://books.google.com/ngrams/json?content=Tom+Peters&year_start=1800&year_end=2019&corpus=26&smoothing=3&direct_url=t1%3B%2CTom%20Peters%3B%2Cc0 
 
 This should provide the following data:
